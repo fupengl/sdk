@@ -9,29 +9,29 @@ Node SDK for [yuque](https://www.yuque.com/yuque/developer/api)
 [![Known Vulnerabilities][snyk-image]][snyk-url]
 [![NPM download][download-image]][download-url]
 
-[npm-image]: https://img.shields.io/npm/v/@yuque/sdk.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/@yuque/sdk
+[npm-image]: https://img.shields.io/npm/v/@planjs/yuque-sdk.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/@planjs/yuque-sdk
 [travis-image]: https://img.shields.io/travis/yuque/sdk.svg?style=flat-square
 [travis-url]: https://travis-ci.org/yuque/sdk
 [codecov-image]: https://codecov.io/gh/yuque/sdk/branch/master/graph/badge.svg
 [codecov-url]: https://codecov.io/gh/yuque/sdk
 [david-image]: https://img.shields.io/david/yuque/sdk.svg?style=flat-square
 [david-url]: https://david-dm.org/yuque/sdk
-[snyk-image]: https://snyk.io/test/npm/@yuque/sdk/badge.svg?style=flat-square
-[snyk-url]: https://snyk.io/test/npm/@yuque/sdk
-[download-image]: https://img.shields.io/npm/dm/@yuque/sdk.svg?style=flat-square
-[download-url]: https://npmjs.org/package/@yuque/sdk
+[snyk-image]: https://snyk.io/test/npm/@planjs/yuque-sdk/badge.svg?style=flat-square
+[snyk-url]: https://snyk.io/test/npm/@planjs/yuque-sdk
+[download-image]: https://img.shields.io/npm/dm/@planjs/yuque-sdk.svg?style=flat-square
+[download-url]: https://npmjs.org/package/@planjs/yuque-sdk
 
 ## Install
 
 ```bash
-npm i @yuque/sdk --save
+npm i @planjs/yuque-sdk --save
 ```
 
 ## Usage
 
 ```js
-const SDK = require('@yuque/sdk');
+const SDK = require('@planjs/yuque-sdk');
 const client = new SDK({
   token: '<YOUR TOKEN>',
   // other options

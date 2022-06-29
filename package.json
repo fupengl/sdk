@@ -1,6 +1,6 @@
 {
   "name": "@planjs/yuque-sdk",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Node SDK for yuque",
   "main": "lib/index.js",
   "dependencies": {
@@ -36,10 +36,10 @@
     "dist",
     "lib"
   ],
-  "homepage": "https://github.com/yuque/sdk",
+  "homepage": "https://github.com/fupengl/sdk",
   "repository": {
     "type": "git",
-    "url": "git@github.com:yuque/sdk.git"
+    "url": "git@github.com:fupengl/sdk.git"
   },
   "files": [
     "lib"
